@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(30, 30, 30);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 2rem;
+  justify-content: center;
+  height: 100dvh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+input {
+  padding: 0.5rem 0.4rem;
+  margin: 0.5rem 0;
+  outline: none;
+}
+#changeTextButton {
+  padding: 1rem 0;
+  color: white;
+  background-color: rgb(255, 94, 0);
+  border: none;
+  text-align: center;
+  width: 100%;
+  margin: 1rem 0 3rem;
+}
+
+.box{
+    background: rgb(36, 34, 34);
+    padding: 3rem 1rem;
+}
+#name2{
+    padding: 0.5 6rem;
+    width: 70%;
+    
+}
+.box h1{
+    margin-bottom: 2rem;
+}
+select{
+    padding: 0.5rem;
+    width: 50%;
+}
+.box button{
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+}
+.box button:nth-of-type(1){
+    background: rgb(0, 172, 40);
+    outline: none;
+    border: none;
+    color: white;
+}
+.box button:nth-of-type(2){
+    background: rgb(211, 0, 0);
+    outline: none;
+    border: none;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    html{
+        font-size: 12px;
+    }
+}
